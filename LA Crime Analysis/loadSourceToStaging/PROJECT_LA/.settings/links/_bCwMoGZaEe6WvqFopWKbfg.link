@@ -1,0 +1,92 @@
+{
+  "itemId" : "_bCwMoGZaEe6WvqFopWKbfg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Ih9VgGZbEe6WvqFopWKbfg",
+    "parameterList" : [ {
+      "id" : "_IiaBcWZbEe6WvqFopWKbfg",
+      "name" : "SouceData_Header"
+    }, {
+      "id" : "_IiaBcmZbEe6WvqFopWKbfg",
+      "name" : "SouceData_FieldSeparator"
+    }, {
+      "id" : "_IiaBc2ZbEe6WvqFopWKbfg",
+      "name" : "SouceData_RowSeparator"
+    }, {
+      "id" : "_IiaBdGZbEe6WvqFopWKbfg",
+      "name" : "SouceData_File"
+    }, {
+      "id" : "_IiaBdWZbEe6WvqFopWKbfg",
+      "name" : "SouceData_Encoding"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_WDRwAGZcEe6WvqFopWKbfg",
+    "parameterList" : [ {
+      "id" : "_WDr_smZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Login"
+    }, {
+      "id" : "_WDr_t2ZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Port"
+    }, {
+      "id" : "_WDr_tGZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Schema"
+    }, {
+      "id" : "_WDr_s2ZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Server"
+    }, {
+      "id" : "_WDr_tmZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Password"
+    }, {
+      "id" : "_WDr_tWZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Database"
+    }, {
+      "id" : "_WDr_sWZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_76Y7kGZbEe6WvqFopWKbfg",
+    "parameterList" : [ {
+      "id" : "_761AdmZbEe6WvqFopWKbfg",
+      "name" : "MySQL_Port"
+    }, {
+      "id" : "_761AcmZbEe6WvqFopWKbfg",
+      "name" : "MySQL_Login"
+    }, {
+      "id" : "_761AdGZbEe6WvqFopWKbfg",
+      "name" : "MySQL_Database"
+    }, {
+      "id" : "_761AdWZbEe6WvqFopWKbfg",
+      "name" : "MySQL_Password"
+    }, {
+      "id" : "_761AcWZbEe6WvqFopWKbfg",
+      "name" : "MySQL_AdditionalParams"
+    }, {
+      "id" : "_761Ac2ZbEe6WvqFopWKbfg",
+      "name" : "MySQL_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_C6X6kGZeEe6WvqFopWKbfg",
+    "parameterList" : [ {
+      "id" : "_C61NkmZeEe6WvqFopWKbfg",
+      "name" : "MySQL1_Login"
+    }, {
+      "id" : "_C61NlmZeEe6WvqFopWKbfg",
+      "name" : "MySQL1_Port"
+    }, {
+      "id" : "_C61Nk2ZeEe6WvqFopWKbfg",
+      "name" : "MySQL1_Server"
+    }, {
+      "id" : "_C61NkWZeEe6WvqFopWKbfg",
+      "name" : "MySQL1_AdditionalParams"
+    }, {
+      "id" : "_C61NlGZeEe6WvqFopWKbfg",
+      "name" : "MySQL1_Database"
+    }, {
+      "id" : "_C61NlWZeEe6WvqFopWKbfg",
+      "name" : "MySQL1_Password"
+    } ]
+  } ]
+}

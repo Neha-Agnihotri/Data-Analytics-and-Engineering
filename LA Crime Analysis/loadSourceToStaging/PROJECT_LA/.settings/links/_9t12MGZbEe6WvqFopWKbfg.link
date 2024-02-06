@@ -1,0 +1,29 @@
+{
+  "itemId" : "_9t12MGZbEe6WvqFopWKbfg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_WDRwAGZcEe6WvqFopWKbfg",
+    "parameterList" : [ {
+      "id" : "_WDr_sWZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_AdditionalParams"
+    }, {
+      "id" : "_WDr_smZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Login"
+    }, {
+      "id" : "_WDr_s2ZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Server"
+    }, {
+      "id" : "_WDr_tGZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Schema"
+    }, {
+      "id" : "_WDr_tWZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Database"
+    }, {
+      "id" : "_WDr_tmZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Password"
+    }, {
+      "id" : "_WDr_t2ZcEe6WvqFopWKbfg",
+      "name" : "AzureSql_Port"
+    } ]
+  } ]
+}

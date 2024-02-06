@@ -1,0 +1,456 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Crime_Data_from_2020_to_Present_4102023.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DR_NO" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Date Rptd" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="DATE OCC" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="TIME OCC" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA NAME" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Rpt Dist No" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Part 1-2" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd Desc" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Mocodes" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Age" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Sex" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Descent" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis Cd" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis Desc" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon Used Cd" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon Desc" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status Desc" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 1" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 2" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 3" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 4" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Cross Street" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LAT" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LON" size="254" source="File: C:\Users\Neha\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="318" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Neha\AppData\Local\Temp\Engine_147404_b6a8c46fa92e0049a3ce5fb0cd645759_\Engine_147404_43d2ad9127c3ad43bdc159ba00a6503d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="270" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse([Date Rptd], &quot;%m-%d-%Y&quot;)&#xA;&#xA;&#xA;" field="Date Rptd" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Date Rptd = DateTimeParse([Date Rptd], "%m-%d-%Y")
+
+
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date Rptd" selected="True" type="DateTime" size="19" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse([DATE OCC], &quot;%m/%d/%Y&quot;)" field="DATE OCC" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DATE OCC = DateTimeParse([DATE OCC], "%m/%d/%Y")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings>
+        <Position x="858" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"LOCATION","Cross Street"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Neha\AppData\Local\Temp\Engine_147404_b6a8c46fa92e0049a3ce5fb0cd645759_\Engine_147404_8676a329849b594c9264be3ec1997808~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="654" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToDateTime(ToNumber(Left([TIME OCC], 2)) / 24 + ToNumber(Right([TIME OCC], 2)) / 1440)&#xA;" field="TIME OCC" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TIME OCC = ToDateTime(ToNumber(Left([TIME OCC], 2)) / 24 + ToNumber(Right([TIME ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="558" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DATE OCC" selected="True" type="DateTime" size="19" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="762" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DR_NO" selected="True" type="Int64" size="8" />
+            <SelectField field="TIME OCC" selected="True" type="Time" size="8" />
+            <SelectField field="AREA" selected="True" type="Int32" size="4" />
+            <SelectField field="Rpt Dist No" selected="True" type="Int32" size="4" />
+            <SelectField field="Part 1-2" selected="True" type="Int32" size="4" />
+            <SelectField field="Crm Cd" selected="True" type="Int32" size="4" />
+            <SelectField field="Mocodes" selected="True" type="Int64" size="8" />
+            <SelectField field="Vict Age" selected="True" type="Int16" size="2" />
+            <SelectField field="Premis Cd" selected="True" type="Int32" size="4" />
+            <SelectField field="Weapon Used Cd" selected="True" type="Int32" size="4" />
+            <SelectField field="Crm Cd 1" selected="True" type="Int32" size="4" />
+            <SelectField field="Crm Cd 2" selected="True" type="Int32" size="4" />
+            <SelectField field="Crm Cd 3" selected="True" type="Int32" size="4" />
+            <SelectField field="Crm Cd 4" selected="True" type="Int32" size="4" />
+            <SelectField field="LAT" selected="True" type="Double" size="8" />
+            <SelectField field="LON" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="258" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="DR_NO" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="378" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DR_NO" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="510" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Neha\AppData\Local\Temp\Engine_147404_b6a8c46fa92e0049a3ce5fb0cd645759_\Engine_147404_4f28fa26ebf55e4d87489a6614fd199d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output26" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="11" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Unique" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Neha_Agnihotri_Project1_Alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="aff67bb6-1953-4b04-8461-c584cc088dda" />
+      <Telemetry>
+        <PreviousWorkflowId value="a2fa62c0-e30d-44f6-8690-e18ad472de90" />
+        <OriginWorkflowId value="a2fa62c0-e30d-44f6-8690-e18ad472de90" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
